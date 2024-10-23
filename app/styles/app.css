@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply text-black bg-white dark:bg-gray-950 dark:text-gray-200;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #0e0f23;
+  }
+
+  .using-mouse * {
+    outline: none !important;
+  }
+}

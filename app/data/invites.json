@@ -1,0 +1,1183 @@
+[
+  {
+    "id": "1",
+    "inviter": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-03-15T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "3",
+    "inviter": {
+      "id": "4",
+      "username": "emma_wilson",
+      "email": "emma@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-04-01T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "4",
+    "inviter": {
+      "id": "5",
+      "username": "michael_brown",
+      "email": "michael@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-04-05T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "5",
+    "inviter": {
+      "id": "6",
+      "username": "olivia_taylor",
+      "email": "olivia@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-04-10T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "6",
+    "inviter": {
+      "id": "7",
+      "username": "william_anderson",
+      "email": "william@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-04-15T00:00:00.000Z",
+    "status": "rejected"
+  },
+  {
+    "id": "7",
+    "inviter": {
+      "id": "8",
+      "username": "sophia_martinez",
+      "email": "sophia@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": false,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-04-20T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "8",
+    "inviter": {
+      "id": "9",
+      "username": "james_thompson",
+      "email": "james@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true,
+      "expiryDate": "2024-04-25"
+    },
+    "createdAt": "2023-04-25T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "9",
+    "inviter": {
+      "id": "10",
+      "username": "ava_garcia",
+      "email": "ava@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-04-30T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "10",
+    "inviter": {
+      "id": "11",
+      "username": "ethan_rodriguez",
+      "email": "ethan@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-05-05T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "11",
+    "inviter": {
+      "id": "12",
+      "username": "mia_lopez",
+      "email": "mia@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-05-10T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "12",
+    "inviter": {
+      "id": "13",
+      "username": "alexander_lee",
+      "email": "alexander@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-05-15T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "13",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-05-20T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "14",
+    "inviter": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-05-25T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "16",
+    "inviter": {
+      "id": "4",
+      "username": "emma_wilson",
+      "email": "emma@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-06-04T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "17",
+    "inviter": {
+      "id": "5",
+      "username": "michael_brown",
+      "email": "michael@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-06-09T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "18",
+    "inviter": {
+      "id": "6",
+      "username": "olivia_taylor",
+      "email": "olivia@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-06-14T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "19",
+    "inviter": {
+      "id": "7",
+      "username": "william_anderson",
+      "email": "william@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-06-19T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "20",
+    "inviter": {
+      "id": "8",
+      "username": "sophia_martinez",
+      "email": "sophia@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": false,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-06-24T00:00:00.000Z",
+    "status": "rejected"
+  },
+  {
+    "id": "21",
+    "inviter": {
+      "id": "9",
+      "username": "james_thompson",
+      "email": "james@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true,
+      "expiryDate": "2024-06-29"
+    },
+    "createdAt": "2023-06-29T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "22",
+    "inviter": {
+      "id": "10",
+      "username": "ava_garcia",
+      "email": "ava@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-07-04T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "23",
+    "inviter": {
+      "id": "11",
+      "username": "ethan_rodriguez",
+      "email": "ethan@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-07-09T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "24",
+    "inviter": {
+      "id": "12",
+      "username": "mia_lopez",
+      "email": "mia@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-07-14T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "25",
+    "inviter": {
+      "id": "13",
+      "username": "alexander_lee",
+      "email": "alexander@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-07-19T00:00:00.000Z",
+    "status": "rejected"
+  },
+  {
+    "id": "27",
+    "inviter": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-07-29T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "28",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "3",
+      "username": "bob_johnson",
+      "email": "bob@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-03T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "29",
+    "inviter": {
+      "id": "4",
+      "username": "emma_wilson",
+      "email": "emma@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-08T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "30",
+    "inviter": {
+      "id": "5",
+      "username": "michael_brown",
+      "email": "michael@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-13T00:00:00.000Z",
+    "status": "rejected"
+  },
+  {
+    "id": "31",
+    "inviter": {
+      "id": "6",
+      "username": "olivia_taylor",
+      "email": "olivia@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-08-18T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "32",
+    "inviter": {
+      "id": "7",
+      "username": "william_anderson",
+      "email": "william@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-23T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "33",
+    "inviter": {
+      "id": "8",
+      "username": "sophia_martinez",
+      "email": "sophia@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": false,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-28T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "34",
+    "inviter": {
+      "id": "9",
+      "username": "james_thompson",
+      "email": "james@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true,
+      "expiryDate": "2024-09-02"
+    },
+    "createdAt": "2023-09-02T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "35",
+    "inviter": {
+      "id": "10",
+      "username": "ava_garcia",
+      "email": "ava@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-07T00:00:00.000Z",
+    "status": "rejected"
+  },
+  {
+    "id": "36",
+    "inviter": {
+      "id": "11",
+      "username": "ethan_rodriguez",
+      "email": "ethan@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-12T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "37",
+    "inviter": {
+      "id": "12",
+      "username": "mia_lopez",
+      "email": "mia@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-17T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "38",
+    "inviter": {
+      "id": "13",
+      "username": "alexander_lee",
+      "email": "alexander@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-09-22T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "39",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "4",
+      "username": "emma_wilson",
+      "email": "emma@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-27T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "40",
+    "inviter": {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "isVerified": false
+    },
+    "invitee": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-10-02T00:00:00.000Z",
+    "status": "pending"
+  },
+
+  {
+    "id": "41",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "5",
+      "username": "michael_brown",
+      "email": "michael@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-08-18T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "42",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "6",
+      "username": "olivia_taylor",
+      "email": "olivia@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-23T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "43",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "7",
+      "username": "william_anderson",
+      "email": "william@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": false,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-08-28T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "44",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "8",
+      "username": "sophia_martinez",
+      "email": "sophia@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true,
+      "expiryDate": "2024-09-02"
+    },
+    "createdAt": "2023-09-02T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "45",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "9",
+      "username": "james_thompson",
+      "email": "james@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-07T00:00:00.000Z",
+    "status": "rejected"
+  },
+  {
+    "id": "46",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "10",
+      "username": "ava_garcia",
+      "email": "ava@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-12T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "47",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "11",
+      "username": "ethan_rodriguez",
+      "email": "ethan@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-17T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "48",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "12",
+      "username": "mia_lopez",
+      "email": "mia@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": true
+    },
+    "createdAt": "2023-09-22T00:00:00.000Z",
+    "status": "pending"
+  },
+  {
+    "id": "49",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "13",
+      "username": "alexander_lee",
+      "email": "alexander@example.com",
+      "isVerified": false
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": false,
+      "readMessages": true,
+      "writeMessages": false,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-09-27T00:00:00.000Z",
+    "status": "accepted"
+  },
+  {
+    "id": "50",
+    "inviter": {
+      "id": "1",
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "isVerified": true
+    },
+    "invitee": {
+      "id": "14",
+      "username": "mia_lee",
+      "email": "mialee@example.com",
+      "isVerified": true
+    },
+    "permissions": {
+      "readPosts": true,
+      "writePosts": true,
+      "readMessages": true,
+      "writeMessages": true,
+      "readProfile": true,
+      "writeProfile": false
+    },
+    "createdAt": "2023-10-02T00:00:00.000Z",
+    "status": "pending"
+  }
+]
